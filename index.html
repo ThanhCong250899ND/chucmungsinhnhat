@@ -47,11 +47,11 @@
             $('#pagepiling').pagepiling({
                 direction: 'horizontal',
                 menu: '#menu',
-                anchors: ['main', 'intro',  'game', 'about'],
-                sectionsColor: ['url("http://i.imgur.com/jtjYUVr.png")', 'white',  'url("img/bg4.png")', '#212121'],
+                anchors: ['main', 'intro',  'game'],
+                sectionsColor: ['url("http://i.imgur.com/jtjYUVr.png")', 'white',  'url("img/bg4.png")],
                 navigation: {
                     'position': 'right',
-                    'tooltips': ['Main Page', 'Intro Page',  'Game', 'About Source Code']
+                    'tooltips': ['Main Page', 'Intro Page',  'Game']
                 },
                 afterRender: function() {
                     $('#pp-nav').addClass('custom');
@@ -83,8 +83,7 @@
 
         <li data-menuanchor="game"><a href="#game">Game</a>
         </li>
-        <li data-menuanchor="about"><a href="#about">About</a>
-        </li>
+        
     </ul>
 
     <div id="pagepiling">
